@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Design Amen | Portfolio Professionnel</title>
+    <style>
+       
+        :root {
+            --bg-dark: #020617;
+            --card-bg: #0f172a;
+            --blue-tech: #3b82f6;
+            --green-impact: #22c55e;
+            --white: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--white);
+            scroll-behavior: smooth;
+        }
+
+        
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: radial-gradient(circle at top, #1e293b 0%, var(--bg-dark) 70%);
+        }
+
+        .logo-box svg {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+
+        /
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid #1e293b;
+            transition: all 0.4s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-15px);
+            border-color: var(--blue-tech);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+        }
+
+        .media-container {
+            width: 100%;
+            height: 450px;
+            background: #000;
+            overflow: hidden;
+            border-bottom: 2px solid #1e293b;
+        }
+
+        .media-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .media-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .card-content h3 {
+            margin: 0 0 10px 0;
+            color: var(--blue-tech);
+        }
+
+        
+        .booking-zone {
+            background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=1000');
+            background-size: cover;
+            padding: 80px 20px;
+            text-align: center;
+            border-top: 1px solid var(--blue-tech);
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            background-color: var(--green-impact);
+            color: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-top: 30px;
+            box-shadow: 0 5px 20px rgba(34, 197, 94, 0.4);
+            transition: 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            transform: scale(1.1);
+            background-color: #16a34a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-box">
+            
+            <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                <g transform="translate(150, 30)">
+                    <polyline points="20,30 0,50 20,70" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <polyline points="80,30 100,50 80,70" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M55,10 L35,55 L65,55 L45,100" fill="none" stroke="#22c55e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <text x="50%" y="170" text-anchor="middle" fill="white" style="font: bold 28px sans-serif;">IMPACT DESIGN <tspan fill="#22c55e">AMEN</tspan></text>
+                <text x="50%" y="200" text-anchor="middle" fill="#60a5fa" style="font: 12px sans-serif; letter-spacing: 4px; text-transform: uppercase;">Visuals & Code</text>
+            </svg>
+        </div>
+        <p>Étudiant en Informatique & Designer Graphique</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Mes Réalisations</h2>
+        <div class="grid">
+    
+    
+    <div class="card">
+        <div class="media-container">
+            
+            <iframe src="poster4.html"></iframe>
+        </div>
+        <div class="card-content">
+            <h3>Electro Night 3D</h3>
+            <p>Poster interactif codé en HTML/CSS avec changement de couleurs et profondeur visuelle.</p>
+        </div>
+    </div>
+
+    
+    <div class="card">
+        <div class="media-container">
+            
+            <iframe src="poster coif.html"></iframe>
+        </div>
+        <div class="card-content">
+            <h3>Prestige Barber Shop</h3>
+            <p>Affiche publicitaire élégante pour salon de coiffure et barbier professionnel.</p>
+        </div>
+    </div>
+
+    
+    <div class="card">
+        <div class="media-container">
+            
+            <iframe src="poster restairant.html"></iframe>
+        </div>
+        <div class="card-content">
+            <h3>RESTAURANT</h3>
+            <p>Menu et visuels promotionnels pour la restauration rapide et italienne.</p>
+        </div>
+    </div>
+
+</div>
+        
+                
+    </div>
+
+    
+    <div class="booking-zone">
+        <h2>Un projet en tête ? Donnez-lui de l'Impact !</h2>
+        <p>Réservez une consultation gratuite pour votre futur design ou site web.</p>
+        
+        
+        <a href="https://wa.me/NUMERO?text=Bonjour%20Amen,%20je%20souhaite%20réserver%20un%20créneau%20pour%20un%20projet." class="whatsapp-button">
+            📅 Réserver sur WhatsApp
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Impact Design Amen | Créé par Amen - Étudiant L1 Info</p>
+    </footer>
+
+</body>
+</html>
